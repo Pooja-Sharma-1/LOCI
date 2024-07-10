@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(226, 226, 189);
+    position: relative;
+    overflow-x: hidden;
+}
+
+#main::-webkit-scrollbar {
+    display: none;
+}
+
+#nav {
+    width: 100%;
+    height: 12%;
+    /* background-color: red; */
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 0 25px;
+}
+
+#nav #logo{
+    height: 100%;
+    width: 35%;
+    /* background-color: red; */
+    position: relative;
+    overflow: visible;
+    margin: 15px;
+
+}
+
+#nav #logo img {
+    /* margin-left: -10%; */
+    scale: .7;
+    object-fit: cover;
+    object-position: center;
+    width: 32%;
+    mix-blend-mode: color-burn;
+    top: 3.5%;
+    outline: 6px solid black;
+    border-radius: 50%;
+    outline-offset: 12px;
+    overflow: visible;
+}
+
+#search {
+    width: 90%;
+    background-color: #ffffffab;
+    height: 50%;
+    border-radius: 50px;
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    margin-right: 20%;
+    font-family: gilroy;
+}
+
+#search h3 {
+    width: 90%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    margin-right: 15px;
+    font-family: gilroy;
+}
+
+#search input {
+    color: black;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 91%;
+    margin-left: 5px;
+}
+
+#account {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 18px;
+}
+
+#account i {
+    padding: 0 15px;
+    font-size: 160%;
+}
+
+#page1 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    /* background-color: #fff; */
+    padding: auto;
+    background-color: rgb(226, 226, 189);
+}
+
+.item {
+    height: 50%;
+    width: 16%;
+    /* background-color: brown; */
+    margin: 25px;
+    position: relative;
+    display: inline-block;
+    scale: 1;
+    transition: all linear .2s;
+    overflow: hidden;
+}
+
+#kapde {
+    height: 80%;
+    width: 100%;
+}
+
+#kapde img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+#information {
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    transition: all linear .1s;
+}
+
+#brand {
+    height: 33%;
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    position: relative;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+#brand h1 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#about {
+    height: 33%;
+    width: 60%;
+    /* background-color: rgb(99, 76, 41); */
+    position: relative;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+#about h2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(80, 79, 79);
+}
+
+#money {
+    height: 33%;
+    width: 100%;
+    /* background-color: rgb(99, 76, 41); */
+    position: relative;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+#money h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* .item:hover{
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.623);
+    scale: 1.025;
+} */
+
+#invisible {
+    height: 150%;
+    width: 101%;
+    background-color: transparent;
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: -49%;
+    transition: all linear .1s;
+}
+
+#rate {
+    height: 25px;
+    width: 50px;
+    background-color: transparent;
+    margin: 5px 10px;
+    padding: 5px 8px;
+    transition: all linear .1s;
+    border-radius: 10px;
+    /* background-color: antiquewhite; */
+}
+
+#rate h4 {
+    color: transparent;
+    transition: all linear .1s;
+}
+
+#rate i {
+    font-size: 13px;
+    margin-left: 2px;
+    margin-top: 3px;
+    color: transparent;
+    transition: all linear .1s;
+}
+
+#size {
+    height: 25px;
+    width: 55px;
+    /* background-color: red; */
+    margin: 4px 8px;
+    padding: 5px 8px;
+    transition: all linear .1s;
+}
+
+#size h4 {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: Playfair;
+    color: transparent;
+}
+
+.hrt {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 7%;
+    bottom: 20%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.hrt i {
+    color: #fff;
+    /* color: #000; */
+    font-size: 28px;
+}
+
+#invisible h5 {
+    color: transparent;
+    position: absolute;
+    right: 7%;
+    bottom: 10%;
+    /* font-size: 28px; */
+}
+
+.item:hover #invisible {
+    background-color: rgb(0, 0, 0);
+}
+
+.item:hover #invisible #rate {
+    background-color: rgba(134, 133, 132, 0.808);
+}
+
+.item:hover #invisible h4 {
+    color: white;
+}
+
+.item:hover #invisible h4 i {
+    color: rgba(218, 165, 32, 0.932);
+}
+
+.item:hover #information h2 {
+    color: rgb(5, 5, 5);
+}
+
+.item:hover #invisible #h i {
+    color: rgba(255, 255, 255, 0.63);
+}
+
+.item:hover #invisible h5 {
+    color: rgba(255, 255, 255, 0.829);
+}

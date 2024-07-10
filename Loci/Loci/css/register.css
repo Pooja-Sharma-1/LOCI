@@ -1,0 +1,200 @@
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    /* padding: 5%; */
+    overflow: hidden;
+}
+#left{
+    height: 100%;
+    width: 50%;
+    background-color: #c7cdab;
+    overflow: hidden; 
+    padding-left: 10%;
+}
+#left h1{
+    font-size: 30px;
+    position: relative;
+    top: 10%;
+    left: 8%;
+}
+#left form{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: contents;
+}
+
+#name{
+    height: 5%;
+    width:60%;
+    /* background-color: rgb(147, 63, 63); */
+    border-bottom: 1px solid black;
+    position: relative;
+    top: 15%;
+    left: 8%;
+}
+#name input{
+    height:100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #c7cdab;
+    position: relative;
+    color: black;
+}
+#num{
+    height: 5%;
+    width:60%;
+    /* background-color: rgb(147, 63, 63); */
+    border-bottom: 1px solid black;
+    position: relative;
+    top: 18%;
+    left: 8%;
+}
+#num input{
+    height:100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #c7cdab;
+    position: relative;
+    color: black;
+}
+#email{
+    height: 5%;
+    width:60%;
+    /* background-color: rgb(147, 63, 63); */
+    border-bottom: 1px solid black;
+    position: relative;
+    top:21%;
+    left: 8%;
+}
+#email input{
+    height:100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #c7cdab;
+    position: relative;
+    color: black;
+}
+#pass{
+    height: 5%;
+    width:60%;
+    /* background-color: rgb(147, 63, 63); */
+    border-bottom: 1px solid black;
+    position: relative;
+    top: 24%;
+    left: 8%;
+}
+#pass input{
+    height:100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #c7cdab;
+    position: relative;
+    color: black;
+}
+button{
+    height: 55px;
+    width: 170px;
+    position: relative;
+    top: 31%;
+    left: 24%;
+    border-radius: 40px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    /* font-family: none; */
+
+}
+#left h3{
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    top: 33%;
+    left: 28%;
+    color: rgb(87, 85, 85);
+
+}
+#left #h{
+   height: 30px;
+   width: 90px;
+    position: relative;
+    top: 34%;
+    left: 30%;
+    transition: all ease .1s;
+    /* background-color: wheat; */
+    
+
+}
+#left #h h2{
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(54, 49, 49);
+
+}
+#left a{
+    text-decoration: none;
+}
+#left #h h2:hover{
+    color: black;
+    text-decoration: underline;
+}
+#right{
+    height: 100%;
+    width: 50%;
+    background-color: #c7cdab; 
+}
+#right #logo{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 34%;
+    right: 24%;
+    mix-blend-mode: color-burn;
+    border-radius: 50%;
+    outline: 5px solid black;
+    outline-offset: 9px;
+    overflow: visible;
+    transition: all ease .1s;
+
+}
+#right #logo:hover{
+    scale: 1.1;
+}
+#right img{
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: contain;
+    /* position: relative;
+    top: 30%; */
+}
+#right #iiii{
+    height: 30%;
+    width: 30%;
+    background-color: #c7cdab;
+    z-index: 1;
+    position: relative;
+    top: -109%;
+    left: 80%;
+    border-radius: 50%;
+    overflow: hidden;
+}

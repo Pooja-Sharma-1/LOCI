@@ -1,0 +1,221 @@
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    position: relative;
+    display: flex;
+    /* padding: 5%; */
+    overflow: hidden;
+}
+#left{
+    height: 100%;
+    width: 50%;
+    background-color: antiquewhite;
+    overflow: hidden;
+   
+}
+#left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#left #ii{
+    height: 70%;
+    width: 70%;
+    /* background-color: black; */
+    z-index: 1;
+    position: relative;
+    top: -85%;
+    left: 15%;
+}
+#left #iii{
+    height: 30%;
+    width: 30%;
+    background-color: black;
+    z-index: 1;
+    position: relative;
+    top: -95%;
+    left: 80%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#right{
+    height: 100%;
+    width: 50%;
+    background-color: #c7cdab;
+
+   
+}
+#right form{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: contents;
+}
+#right #logo{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 4%;
+    left:3%;
+    mix-blend-mode: color-burn;
+    border-radius: 50%;
+    outline: 5px solid black;
+    outline-offset: 9px;
+    overflow: visible;
+
+}
+#right h1{
+    font-size: 30px;
+    position: relative;
+    top: 10%;
+    left: 8%;
+}
+#email{
+    height: 5%;
+    width:60%;
+    /* background-color: rgb(147, 63, 63); */
+    border-bottom: 1px solid black;
+    position: relative;
+    top: 18%;
+    left: 8%;
+}
+#email input{
+    height:100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    color: black;
+}
+#pass{
+    height: 5%;
+    width:60%;
+    /* background-color: rgb(147, 63, 63); */
+    border-bottom: 1px solid black;
+    position: relative;
+    top: 23%;
+    left: 8%;
+}
+#pass input{
+    height:100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    color: black;
+}
+button{
+    height: 55px;
+    width: 170px;
+    position: relative;
+    top: 31%;
+    left: 28%;
+    border-radius: 40px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    /* font-family: none; */
+
+}
+#right h3{
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    top: 34%;
+    left: 28%;
+    color: rgb(87, 85, 85);
+
+}
+#gog{
+    position: relative;
+    top: 40%;
+    /* background-color: rebeccapurple; */
+    height: 10%;
+    width: 50%;
+    left: 15%;
+    overflow: hidden;
+}
+#gog button{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: black;
+}
+#gog button #IMG{
+    height: 75%;
+    width: 13%;
+    /* object-fit: cover; */
+    /* object-position: center; */
+    position: relative;
+    left: 4%;
+    /* background-color: aqua; */
+    top:-33%;
+}
+#IMG img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#gog button h1{
+    /* font-family:none; */
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: -60px;
+    /* background-color: beige; */   
+}
+
+#right #new{
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    top: 42%;
+    left: 35%;
+    color: rgb(77, 74, 74);
+
+}
+#right #h{
+   height: 30px;
+   width: 80px;
+    position: relative;
+    top: 44%;
+    left: 36%;
+    /* background-color: wheat; */
+    
+
+}
+#right #h h2{
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(54, 49, 49);
+    transition: all ease .1s;
+
+
+}
+#right a{
+    text-decoration: none;
+}
+#right #h h2:hover{
+    color: black;
+    text-decoration: underline;
+}
